@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* Обращение ко всем селекторам */
+*{
+}
+
+/* Tag name */
+body{
+  margin: 0px;
+  color: #0f141e;
+  background: #f1f1f1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: normal;
+  /* font: normal 18px 'Roboto', sans-serif; */
+  /* text-decoration: line-through; */
+  /* font-style: italic; */
+  /* letter-spacing: 2px; */
+  /* word-spacing: 1px; */
+  background: rgb(201, 201, 201);
+}
+/* Class */
+.card{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  padding-left: 1%;
+
+}
+.shadow{
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.25);
+}
+.container{
+  width: 700px;
+  margin: auto;
+}
+.hobbi{
+ 
+  border:  2px solid #f39a9a;
+  border-radius: 20px;
+  background-color: #f39a9a;
+}
+.social{
+  
+  border:  2px solid #63c7b1;
+  border-radius: 20px;
+  background-color: #63c7b1;
+}
+.exp{
+  
+  border:  2px solid cornflowerblue;
+  border-radius: 20px;
+  background-color: cornflowerblue;
+}
+.bg-foot{
+  margin-top: 5px;
+  margin-bottom: 0px;
+  border:  2px solid rgb(241, 223, 121);
+  border-radius: 20px;
+  padding-left: 1%;
+  background-color: rgb(241, 223, 121);
+  
+}
+.bg-twitch{
+  
+  background-color: rgb(177, 134, 218);
+  border:  2px solid rgb(177, 134, 218);
+  border-radius: 20px;
+}
+
+
+/* ID */

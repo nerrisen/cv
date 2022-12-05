@@ -3,74 +3,99 @@
 <head>
   <meta charset="UTF-8">
   <title>Viktor</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <table cellspacing="15">
-    <tr>
-      <td><img src="avatar.png" width="150" alt="Моя фотка"></td>
-      <td><h1>Соловьёв Виктор</h1>
-        <p><em>Учусь верстке <strong>сам</strong></em></p>
-        <p>Люблю сидеть дома</p></td>
-    </tr>
-  </table>
-  
-  
-  <hr>
-  <h2>Мои социальные сети</h2>
-  <ul>
-    <li><a href="https://t.me/viTEK97" target="_blank">Telegram</a></li>
-    <li><a href="https://www.youtube.com/channel/UCdQ3n2mTkRp6SX9SD9X3S7g" target="_blank">Youtube</a></li>
-  </ul>
-  <hr>
-  <h2>Мои хобби</h2>
-  <ol>
-    <li>Музыка</li>
-    <li>Вкусная еда</li>
-    <li>Сладкий сон</li>
-  </ol>
-  <hr>
-  <h2>Опыт работы</h2>
-  <table>
-    <thead>
+  <div class="container">
+
+  <header class="card bg-head">
+
+    <table cellspacing="25">
       <tr>
-        <th>Компани</th>
-        <th>Должность</th>
-        <th>Год</th>
+        <td><img src="avatar.png"  class="shadow" width="150" alt="Моя фотка">
+        </td>
+        <td><h1>Соловьёв Виктор</h1>
+          <p><em>Учусь разработке <strong>сам</strong></em></p>
+          <p>Люблю сидеть <strong>за ПК</strong></p>
+        </td>
       </tr>
-    </thead>
-    <tbody><tr>
-      <td>Яндекс</td>
-      <td>junior frontend developer</td>
-      <td>2014-2015</td>
-    </tr>
-    <tr>
-      <td>Google</td>
-      <td>junior frontend developer</td>
-      <td>2015-2022</td>
-    </tr></tbody>
-
-  </table>
-  <hr>
-  <h2>Twitch канал</h2>
-  <a href="Twitch.html">Посмотреть хайлайты</a>
-  <hr>
-  <h2>Связаться со мной</h2>
-  <form action="">
-    <label for="name">Ваше имя:</label>
-    <input type="text" id="name" placeholder="Введите ваше имя..." >
-    <br>
-    <label for="email">Ваш email:</label>
-    <input type="email" id="email" placeholder="Введите email..." >
-    
-    <br>
-    <label for="text">Ваше сообщение:</label>
-    <br>
-    <textarea name="" id="text" cols="31" rows="4"></textarea>
-    <br>
-    <input type="submit" value="Связаться">
-  </form>
-
-
+    </table>
+  </header>
   
+  <div class="card social">
+    <h2 class="html">Мои социальные сети</h2>
+
+    <ul>
+      <li><a href="https://t.me/viTEK97" target="_blank">Telegram</a></li>
+      <li><a href="https://www.youtube.com/channel/UCdQ3n2mTkRp6SX9SD9X3S7g" target="_blank">Youtube</a></li>
+    </ul>
+  </div>
+
+  <div class="card hobbi">
+    <h2 class="css">Мои хобби</h2>
+
+    <ol>
+      <li>Музыка</li>
+      <li>Вкусная еда</li>
+      <li>Сладкий сон</li>
+    </ol>
+  </div>
+
+  <div class="card exp">
+    <h2>Опыт работы</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Компани</th>
+          <th>Должность</th>
+          <th>Год</th>
+        </tr>
+      </thead>
+      <tbody><tr>
+        <td>Яндекс</td>
+        <td>junior frontend developer</td>
+        <td>2014-2015</td>
+      </tr>
+      <tr>
+        <td>Google</td>
+        <td>junior frontend developer</td>
+        <td>2015-2022</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="card bg-twitch">
+    <h2>Twitch канал</h2>
+
+    <a href="Twitch.html">Посмотреть хайлайты</a>
+  </div>
+  
+  <footer class="card bg-foot">
+    <h2>Связаться со мной</h2>
+
+    <form>
+
+      <div>
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" placeholder="Введите ваше имя">
+      </div>
+
+      <div>
+        <label for="email">Ваш email:</label>
+        <input type="email" id="email" placeholder="Введите email">
+      </div> 
+      
+      <div>
+        <label for="text">Ваше сообщение:</label>
+        <br>
+        <textarea name="" id="text" cols="31" rows="4" placeholder="Введите сообщение..."></textarea>
+      </div>
+
+      <input type="submit" value="Отправить">
+    </form>
+  </footer>
+  </div>
 </body>
 </html>
